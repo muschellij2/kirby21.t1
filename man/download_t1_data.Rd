@@ -16,3 +16,6 @@ Indicator if the data is downloaded.
 \description{
 Download the files for the T1 images
 }
+\examples{
+download_t1_data(outdir = tempdir())
+}

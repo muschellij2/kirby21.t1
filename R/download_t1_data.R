@@ -7,8 +7,17 @@
 #' 
 #' @export
 #' @importFrom kirby21.base download_kirby21_data all_modalities
+#' @examples 
+#' download_t1_data(outdir = tempdir())
 download_t1_data =  function(...) {  
-  x = kirby21.base::download_kirby21_data(modality = c("T1", "BrainMask"), ...)
-  return(x)
+  mods = c("T1", "BrainMask")
+  names(mods) = mods
+  x = sapply(mods,
+    function(modality) {
+      kirby21.base::download_kirby21_data(
+        modality = modality, 
+        ...)
+    })
+  return(all(x))
 }
 
