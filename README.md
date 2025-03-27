@@ -1,5 +1,7 @@
-Structural T1 magnetic resonance imaging ('MRI')
-data from the 'Kirby21' reproducibility study.
+Structural T1 magnetic resonance imaging ('MRI') data from the 'Kirby21' reproducibility study.
 
-[![Travis-CI Build Status](https://travis-ci.org/muschellij2/kirby21.t1.svg?branch=master)](https://travis-ci.org/)
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/muschellij2/kirby21.t1/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/muschellij2/kirby21.t1/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
+
 

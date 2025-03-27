@@ -2,8 +2,7 @@ Package: kirby21.t1
 Type: Package
 Title: Example T1 Structural Data from the Multi-Modal MRI
        'Reproducibility' Resource
-Version: 1.7.3.2
-Date: 2020-07-02
+Version: 1.7.4
 Author: John Muschelli <muschellij2@gmail.com>
 Maintainer: John Muschelli <muschellij2@gmail.com>
 Description: Structural T1 magnetic resonance imaging ('MRI')
@@ -11,6 +10,6 @@ Description: Structural T1 magnetic resonance imaging ('MRI')
        <doi:10.1016/j.neuroimage.2010.11.047>.
 License: GPL-2
 Imports: kirby21.base (>= 1.7.3)
-RoxygenNote: 7.1.1
+RoxygenNote: 7.3.2
 URL: https://www.nitrc.org/projects/multimodal/
 Encoding: UTF-8

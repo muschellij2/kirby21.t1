@@ -6,3 +6,4 @@ inst/visit_*/*
 ^cran-comments\.md$
 revdep/*
 ^data-raw$
+^\.github$

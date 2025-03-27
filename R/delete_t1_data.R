@@ -1,7 +1,7 @@
 #' @title Delete T1 Image Filenames
 #'
 #' @description Delete the files for the T1 images
-#' @param ... arguments to pass to \code{\link{delete_kirby21_data}},
+#' @param ... arguments to pass to \code{\link[kirby21.base]{delete_kirby21_data}},
 #' \code{modalities = "T1"} so it cannot be specified
 #' @return Nothing is returned
 #' 

@@ -7,7 +7,7 @@
 download_t1_data(...)
 }
 \arguments{
-\item{...}{arguments to pass to \code{\link{download_kirby21_data}},
+\item{...}{arguments to pass to \code{\link[kirby21.base]{download_kirby21_data}},
 \code{modalities = "T1"} so it cannot be specified}
 }
 \value{
