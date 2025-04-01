@@ -7,3 +7,4 @@ inst/visit_*/*
 revdep/*
 ^data-raw$
 ^\.github$
+^\.DS_Store$
