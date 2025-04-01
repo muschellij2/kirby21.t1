@@ -1,3 +1,7 @@
+# kirby21.t1 1.8.0
+
+* Fixing the \link issues with packages.
+
 # kirby21.t1 1.7.0
 
 * Added options for deleting data with `delete_t1_data`.  
